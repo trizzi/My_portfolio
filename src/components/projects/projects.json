@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "ShopRacks",
+        "image": "",
+        "text": "ShopRacks is a software designed to efficiently document, track and manage inventories, orders and deliveries for online store owners."
+      },
+      {
+        "id": 2,
+        "name": "Walio",
+        "image": "",
+        "text": "Start accepting worldwide cryptocurrency payments for all your business needs. Create orders, invoices, simple payment requests or game tokenization with our easy to use API Infrastructure"
+      },
+      {
+        "id": 3,
+        "name": "Deglobal Archievers Limited",
+        "image": "",
+        "text": "Project Delivery Done Differently."
+      }
+]
