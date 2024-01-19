@@ -12,14 +12,18 @@ const ProjectItem = ({ project: { image, name, text } }) => {
 				alt='project_image'
 				className='w-full'
 			/>
-			<div className='p-5 xl:px-10'>
+			<div className='p-5 md:px-10 bg-[#292A3C] opacity-80'>
 				<h3 className='font-bold text-xl py-5'>{name}</h3>
 				<p>{text}</p>
 
 				<span
 					className='whitespace-nowrap flex items-center pt-5'
 					style={{ color: theme.primary }}>
-					<Button>Explore</Button>
+					<Button
+						text={'Explore'}
+						className='text-white'
+						background
+					/>
 				</span>
 			</div>
 		</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import HorizontalScrollCarousel from '../../utilities/HorizontalScrollCarousel';
 import projects from './projects.json';
 import ProjectItem from './ProjectItem';
 import projectImage from '../../assets/projects_background_image.svg';
@@ -8,12 +9,12 @@ const Projects = () => {
 	return (
 		<div
 			name='section3'
-			className=''
+			className='h-[450vh] md:h-[100vh]'
 			style={{
 				backgroundImage: `url(${projectImage})`,
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
-				height: '800px',
+				// height: '100vh',
 				backgroundColor: 'rgba(0,0,0,0.9)',
 			}}>
 			<div>
@@ -24,21 +25,24 @@ const Projects = () => {
 							alt='service-logo'
 						/>
 					</div>
-					<div>
+					<div className='pt-3'>
 						<h1>Projects</h1>
 					</div>
 				</div>
 			</div>
-			<div className='relative w-full min-h-0'>
-				<div className='relative flex flex-wrap w-full lg:justify-center lg:space-x-6 pt-10 md:pt-20'>
-					{projects.map((project) => (
-						<ProjectItem
-							key={project.id}
-							project={project}
-						/>
-					))}
+
+			<HorizontalScrollCarousel>
+				<div className='md:relative w-full min-h-0'>
+					<div className='flex flex-wrap w-full lg:justify-center lg:space-x-6 mx-4'>
+						{projects.map((project) => (
+							<ProjectItem
+								key={project.id}
+								project={project}
+							/>
+						))}
+					</div>
 				</div>
-			</div>
+			</HorizontalScrollCarousel>
 		</div>
 	);
 };

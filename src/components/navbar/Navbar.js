@@ -11,7 +11,7 @@ const Navbar = ({ toggle }) => {
 				<div className='w-48 p-6'>
 					<Link
 						to='#'
-						className='pl-2 shrink-0'>
+						className='pl-2'>
 						<img
 							className='w-48 p-2'
 							src={Icon}
@@ -21,11 +21,12 @@ const Navbar = ({ toggle }) => {
 				</div>
 
 				<div
-					className='px-8 cursor-pointer md:hidden'
+					className='px-8 cursor-pointer md:hidden text-white'
 					onClick={toggle}>
 					<i className='fas fa-bars'></i>
 				</div>
-				<div className='pr-8 md:flex hidden space-x-5 lg:space-x-16 items-center'>
+
+				<div className='pr-8 md:flex hidden space-x-5 lg:space-x-16 items-center text-white'>
 					<Link
 						to='section1'
 						smooth={true}
@@ -42,15 +43,18 @@ const Navbar = ({ toggle }) => {
 						to='section3'
 						smooth={true}
 						duration={500}>
-						Services
+						Projects
 					</Link>
 					<Link
 						to='section4'
 						smooth={true}
 						duration={500}>
-						Projects
+						Services
 					</Link>
-					<Link to='#'>
+
+					<Link
+						to='#'
+						className='mt-[-1rem]'>
 						<Button
 							text={'Hire Me'}
 							background

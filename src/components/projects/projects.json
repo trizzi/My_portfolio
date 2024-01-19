@@ -1,20 +1,35 @@
 [
+  {
+    "id": 1,
+    "name": "Walio",
+    "image": "img/walio.svg",
+    "text": "Start accepting worldwide cryptocurrency payments for all your business needs. Create orders, invoices, simple payment requests or game tokenization with our easy to use API Infrastructure."
+  },
+  {
+    "id": 2,
+    "name": "Improve Parenting",
+    "image": "img/improve-parenting.svg",
+    "text": "Unlock the secrets to effective parenting with our comprehensive guides. Discover how to educate your children to grow up healthy and well-mannered."
+  },
     {
-        "id": 1,
+        "id": 3,
         "name": "ShopRacks",
-        "image": "",
+        "image": "img/shopracks.svg",
         "text": "ShopRacks is a software designed to efficiently document, track and manage inventories, orders and deliveries for online store owners."
       },
       {
-        "id": 2,
-        "name": "Walio",
-        "image": "",
-        "text": "Start accepting worldwide cryptocurrency payments for all your business needs. Create orders, invoices, simple payment requests or game tokenization with our easy to use API Infrastructure"
-      },
-      {
-        "id": 3,
+        "id": 4,
         "name": "Deglobal Archievers Limited",
-        "image": "",
-        "text": "Project Delivery Done Differently."
+        "image": "img/deglobal.svg",
+        "text": "Deglobal Achievers Limited provides qualitative electro mechanical, civil engineering logistics and procurement for industries, telecommunications, oil gas and energy sectors."
+      },
+     
+      {
+        "id": 5,
+        "name": "Compass",
+        "image": "img/compass.svg",
+        "text": "At Compass, our focus is on providing you with all the information you need to make informed decisions about your financial future. We understand that the world of finance can be overwhelming and confusing, and we want to help you navigate it with ease."
       }
+     
+     
 ]

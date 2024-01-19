@@ -13,14 +13,14 @@ const Button = ({ time, text, background, size, refs, disable }) => {
 	return (
 		<motion.button
 			className={`
-        rounded-full py-2 lg:py-2 px-5 whitespace-nowrap hover:ring-pink-800
-        ${size && size} ${disable && 'opacity-40 cursor-wait'}`}
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:ring-pink-800
+        ${size && size} ${disable && 'opacity-40 cursor-wait'} mt-5`}
 			style={{
 				backgroundColor: `${
-					background ? theme.primary.normal : theme.transparent
+					background ? theme.primary.purple : theme.transparent
 				}`,
 				color: `${background ? theme.textcolor.light : theme.current}`,
-				border: '2px solid ' + theme.primary.normal,
+				border: '2px solid ' + theme.primary.purple,
 			}}
 			ref={refs}
 			disabled={disable}
