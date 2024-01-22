@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../button/Button';
 import SlideIn from '../../utilities/SlideIn';
 import showcaseImg from '../../assets/Profile picture (1).svg';
@@ -61,10 +62,12 @@ const About = () => {
 							</p>
 						</div>
 						<div className='lg:ml-24 md:mx-16 my-4 ml-14 mb-10'>
-							<Button
-								text={'Hire Me'}
-								className='text-white'
-							/>
+							<Link to='patrickakhamiogu@gmail.com'>
+								<Button
+									text={'Hire Me'}
+									className='text-white'
+								/>
+							</Link>
 						</div>
 					</div>
 				</div>

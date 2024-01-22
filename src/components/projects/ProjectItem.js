@@ -1,32 +1,36 @@
 import React from 'react';
 import Button from '../button/Button.js';
 import { useTheme } from '../../context/ThemeContext';
+import FadeInUp from '../../utilities/FadeInUp.js';
 
-const ProjectItem = ({ project: { image, name, text } }) => {
+const ProjectItem = ({ project: { image, name, text, icon, link } }) => {
 	const { theme } = useTheme();
 
 	return (
-		<div className='w-full mt-10 lg:mt-0 mr-6 lg:mr-0 md:w-2/5 lg:w-1/4 rounded-xl overflow-hidden shadow-xl bg-white'>
+		<FadeInUp className='w-full mt-10 lg:mt-0 lg:mr-0 md:w-[440px] rounded-xl overflow-hidden shadow-xl'>
 			<img
 				src={image}
 				alt='project_image'
-				className='w-full'
+				className='rounded-t-lg'
 			/>
-			<div className='p-5 md:px-10 bg-[#292A3C] opacity-80'>
+			<div className='pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl'>
+				{/* <span>{icon}</span> */}
 				<h3 className='font-bold text-xl py-5'>{name}</h3>
 				<p>{text}</p>
 
 				<span
-					className='whitespace-nowrap flex items-center pt-5'
+					className='whitespace-nowrap flex items-center pt-2'
 					style={{ color: theme.primary }}>
-					<Button
-						text={'Explore'}
-						className='text-white'
-						background
-					/>
+					<a href={link}>
+						<Button
+							text={'Explore'}
+							className='text-white'
+							background
+						/>
+					</a>
 				</span>
 			</div>
-		</div>
+		</FadeInUp>
 	);
 };
 

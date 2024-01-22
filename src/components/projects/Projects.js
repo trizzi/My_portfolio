@@ -1,5 +1,4 @@
 import React from 'react';
-import HorizontalScrollCarousel from '../../utilities/HorizontalScrollCarousel';
 import projects from './projects.json';
 import ProjectItem from './ProjectItem';
 import projectImage from '../../assets/projects_background_image.svg';
@@ -9,7 +8,7 @@ const Projects = () => {
 	return (
 		<div
 			name='section3'
-			className='h-[450vh] md:h-[100vh]'
+			className='container-xl'
 			style={{
 				backgroundImage: `url(${projectImage})`,
 				backgroundRepeat: 'no-repeat',
@@ -31,18 +30,16 @@ const Projects = () => {
 				</div>
 			</div>
 
-			<HorizontalScrollCarousel>
-				<div className='md:relative w-full min-h-0'>
-					<div className='flex flex-wrap w-full lg:justify-center lg:space-x-6 mx-4'>
-						{projects.map((project) => (
-							<ProjectItem
-								key={project.id}
-								project={project}
-							/>
-						))}
-					</div>
+			<div className='container mx-auto p-8 md:p-20'>
+				<div className='flex flex-wrap gap-4'>
+					{projects.map((project) => (
+						<ProjectItem
+							key={project.id}
+							project={project}
+						/>
+					))}
 				</div>
-			</HorizontalScrollCarousel>
+			</div>
 		</div>
 	);
 };

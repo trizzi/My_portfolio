@@ -3,32 +3,50 @@
     "id": 1,
     "name": "Walio",
     "image": "img/walio.svg",
-    "text": "Start accepting worldwide cryptocurrency payments for all your business needs. Create orders, invoices, simple payment requests or game tokenization with our easy to use API Infrastructure."
+    "icon": "img/walio-icon.svg",
+    "text": "Start accepting worldwide cryptocurrency payments for all your business needs. Create orders, invoices, simple payment requests or....",
+    "link": "https://www.walio.io"
   },
   {
     "id": 2,
     "name": "Improve Parenting",
-    "image": "img/improve-parenting.svg",
-    "text": "Unlock the secrets to effective parenting with our comprehensive guides. Discover how to educate your children to grow up healthy and well-mannered."
+    "image": "img/improve.svg",
+    "icon": "img/improve-icon.svg",
+    "text": "Unlock the secrets to effective parenting with our comprehensive guides. Discover how to educate your children to grow up healthy....",
+    "link": "https://www.improveparenting.com/"
   },
     {
         "id": 3,
         "name": "ShopRacks",
         "image": "img/shopracks.svg",
-        "text": "ShopRacks is a software designed to efficiently document, track and manage inventories, orders and deliveries for online store owners."
+        "icon": "img/shopracks-icon.svg",
+        "text": "ShopRacks is a software designed to efficiently document, track and manage inventories, orders and deliveries for online store.... ",
+        "link": "https://www.shopracks.com.ng/"
       },
       {
         "id": 4,
         "name": "Deglobal Archievers Limited",
         "image": "img/deglobal.svg",
-        "text": "Deglobal Achievers Limited provides qualitative electro mechanical, civil engineering logistics and procurement for industries, telecommunications, oil gas and energy sectors."
+        "icon": "img/deglobal-icon.svg",
+        "text": "DeGlobalAchievers, a dynamic website powered by JavaScript, empowers achievers worldwide with innovative solutions....",
+        "link": "https://www.deglobalachieverslimited.com/"
       },
      
       {
         "id": 5,
         "name": "Compass",
         "image": "img/compass.svg",
-        "text": "At Compass, our focus is on providing you with all the information you need to make informed decisions about your financial future. We understand that the world of finance can be overwhelming and confusing, and we want to help you navigate it with ease."
+        "icon": "img/compass-icon.svg",
+        "text": "At Compass, our focus is on providing you with all the information you need to make informed decisions about your financial future.",
+        "link": "https://onboardxyz.substack.com/"
+      },
+      {
+        "id": 6,
+        "name": "Nextcoin",
+        "image": "img/next.svg",
+        "icon": "img/compass-icon.svg",
+        "text": "Our vision is a world where financial independence is accessible and we're committed to ensuring that no one is left behind.",
+        "link": "https://nestcoin.com/"
       }
      
      
