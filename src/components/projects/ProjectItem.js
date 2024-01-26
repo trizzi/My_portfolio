@@ -7,7 +7,7 @@ const ProjectItem = ({ project: { image, name, text, icon, link } }) => {
 	const { theme } = useTheme();
 
 	return (
-		<FadeInUp className='w-full mt-10 lg:mt-0 lg:mr-0 md:w-[440px] rounded-xl overflow-hidden shadow-xl'>
+		<FadeInUp className='w-full mt-10 lg:mt-0 lg:mr-0 md:w-2/5 lg:w-[400px]  rounded-xl overflow-hidden shadow-xl'>
 			<img
 				src={image}
 				alt='project_image'

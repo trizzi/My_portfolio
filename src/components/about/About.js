@@ -89,7 +89,7 @@ const About = () => {
 										alt='Images'
 									/>
 									<a
-										href='info@ideas2launch.com'
+										href='patrickakhamiogu@gmail.com'
 										className='pt-3 pl-2'>
 										<p>patrickakhamiogu@gmail.com</p>
 									</a>
