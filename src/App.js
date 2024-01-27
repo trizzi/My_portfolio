@@ -9,7 +9,6 @@ import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
-import New from './components/new/New';
 
 function App() {
 	const { theme } = useTheme();
@@ -48,11 +47,6 @@ function App() {
 								</>
 							</Suspense>
 						}
-					/>
-					<Route
-						exact
-						path='/new'
-						element={<New />}
 					/>
 				</Routes>
 			</Router>
