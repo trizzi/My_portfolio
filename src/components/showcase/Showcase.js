@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import Button from '../button/Button';
 import SlideIn from '../../utilities/SlideIn';
 import FadeIn from '../../utilities/FadeIn';
@@ -19,7 +19,7 @@ const Showcase = () => {
 							alt='Intro'
 						/>
 					</FadeIn>
-					<Link to='#'>
+					<Link to='section3'>
 						<Button
 							text={'Explore'}
 							className='mt-4 text-white'

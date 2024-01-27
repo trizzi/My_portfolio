@@ -5,7 +5,7 @@ import text from '../../assets/contact_me_text.svg';
 const Contact = () => {
 	return (
 		<div
-			name='section4'
+			name='section5'
 			className='flex text-white w-full'>
 			<div className='hidden md:block md:visible w-1/2 bg-black p-32'>
 				<img
