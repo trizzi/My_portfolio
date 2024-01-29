@@ -30,7 +30,7 @@ const Projects = () => {
 				</div>
 			</div>
 
-			<div className='container mx-auto p-8 lg:p-20'>
+			<div className='container mx-auto pt-0 px-8 md:p-20'>
 				<div className='flex flex-wrap gap-4'>
 					{projects.map((project) => (
 						<ProjectItem

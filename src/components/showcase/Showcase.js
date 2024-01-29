@@ -7,6 +7,12 @@ import Text from '../../assets/Text (1).svg';
 import showcaseImg from '../../assets/Profile picture (1).svg';
 
 const Showcase = () => {
+	const emailAddress = 'patrickakhamiogu@gmail.com';
+
+	const handleEmailClick = () => {
+		window.location.href = `mailto:${emailAddress}`;
+	};
+
 	return (
 		<div
 			name='section1'
@@ -35,7 +41,8 @@ const Showcase = () => {
 								alt='Images'
 							/>
 							<a
-								href='patrickakhamiogu@gmail.com'
+								href={`mailto:${emailAddress}`}
+								onClick={handleEmailClick}
 								className='pt-3 pl-2'>
 								<p>patrickakhamiogu@gmail.com</p>
 							</a>

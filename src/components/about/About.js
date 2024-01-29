@@ -8,6 +8,12 @@ import text from '../../assets/PATRICK AKHAMIOGU.svg';
 import aboutImage from '../../assets/about_background_image.svg';
 
 const About = () => {
+	const emailAddress = 'patrickakhamiogu@gmail.com';
+
+	const handleEmailClick = () => {
+		window.location.href = `mailto:${emailAddress}`;
+	};
+
 	return (
 		<div
 			name='section2'
@@ -22,7 +28,7 @@ const About = () => {
 			<div className='flex flex-col sm:flex-row w-full justify-between text-white'>
 				<div className='bg-[#29292E] opacity-80 md:w-1/2'>
 					<div className='mt-6'>
-						<div className='flex px-12 pt-8'>
+						<div className='flex pl-6 pr-12 md:px-12 pt-8'>
 							<div>
 								<img
 									src={aboutLogo}
@@ -89,7 +95,8 @@ const About = () => {
 										alt='Images'
 									/>
 									<a
-										href='patrickakhamiogu@gmail.com'
+										href={`mailto:${emailAddress}`}
+										onClick={handleEmailClick}
 										className='pt-3 pl-2'>
 										<p>patrickakhamiogu@gmail.com</p>
 									</a>
