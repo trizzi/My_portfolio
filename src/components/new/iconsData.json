@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-brands fa-telegram",
+        "iconClassName":"text-white text-2xl",
+        "position" : "top-1/4 left-[9%] ",
+        "transition": "transform hover:scale-110 transition-transform",
+        "delay": 1000
+    },
+    {
+        "id": 2,
+        "icon": "fa-brands fa-linkedin",
+        "iconClassName":"text-white text-2xl",
+        "position" : "top-[18%] left-[60%] ",
+        "transition": "transform -translate-x-1/2 -translate-y-1/2 hover:rotate-45 transition-transform transition-opacity  duration-300 bg-blue-500 rounded-full",
+        "delay": 2000
+    },
+    { 
+        "id": 3,
+        "icon": "fa-brands fa-github",
+        "iconClassName":"text-white text-2xl",
+        "position" : "top-1/4 left-[9%] ",
+        "transition": "transform hover:scale-110 transition-transform",
+        "delay": 3000
+    },
+    { 
+        "id": 4,
+        "icon": "fa-brands fa-medium ",
+        "iconClassName":"text-white text-2xl",
+        "position" : "top-1/4 left-[9%] ",
+        "transition": "transform hover:scale-110 transition-transform",
+        "delay": 4000
+    },
+    { 
+        "id": 5,
+        "icon": "fa-brands fa-google",  
+        "iconClassName":"text-white text-2xl",
+        "position" : "top-1/4 left-[9%] ",
+        "transition": "transform hover:scale-110 transition-transform",
+        "delay": 5000
+    },
+    { 
+        "id": 6,
+        "icon": "fa-brands fa-facebook",
+        "iconClassName":"text-white text-2xl",
+        "position" : "top-1/4 left-[9%] ",
+        "transition": "transform hover:scale-110 transition-transform",
+        "delay": 6000
+    },
+    { 
+        "id": 7,
+        "icon": "fa-brands fa-twitter",
+        "iconClassName":"text-white text-2xl",
+        "position" : "top-1/4 left-[9%] ",
+        "transition": "transform hover:scale-110 transition-transform",
+        "delay": 7000
+    }
+]

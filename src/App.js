@@ -9,6 +9,7 @@ import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
+import Neww from './components/new/Neww';
 
 function App() {
 	const { theme } = useTheme();
@@ -44,6 +45,7 @@ function App() {
 									<Projects />
 									<Services />
 									<Contact />
+									<Neww />
 								</>
 							</Suspense>
 						}
