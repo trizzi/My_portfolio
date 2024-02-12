@@ -14,7 +14,6 @@ const ProjectItem = ({ project: { image, name, text, icon, link } }) => {
 				className='rounded-t-lg'
 			/>
 			<div className='pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl'>
-				{/* <span>{icon}</span> */}
 				<h3 className='font-bold text-xl py-5'>{name}</h3>
 				<p>{text}</p>
 

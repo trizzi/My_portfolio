@@ -13,7 +13,6 @@ const Projects = () => {
 				backgroundImage: `url(${projectImage})`,
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
-				// height: '100vh',
 				backgroundColor: 'rgba(0,0,0,0.9)',
 			}}>
 			<div>

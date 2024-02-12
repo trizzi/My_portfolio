@@ -22,7 +22,6 @@ const About = () => {
 				backgroundImage: `url(${aboutImage})`,
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
-				// height: '800px',
 				backgroundColor: 'rgba(0,0,0,0.9)',
 			}}>
 			<div className='flex flex-col sm:flex-row w-full justify-between text-white'>
@@ -83,7 +82,6 @@ const About = () => {
 						backgroundImage: `url(${aboutImage})`,
 						backgroundRepeat: 'no-repeat',
 						backgroundSize: 'cover',
-						// height: '920px',
 						backgroundColor: 'rgba(0,0,0,0.9)',
 					}}>
 					<SlideIn>

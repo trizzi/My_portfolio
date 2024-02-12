@@ -13,7 +13,6 @@ const Services = () => {
 				backgroundImage: `url(${serviceImage})`,
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
-				// height: '800px',
 				backgroundColor: 'rgba(0,0,0,0.9)',
 			}}>
 			<div>
