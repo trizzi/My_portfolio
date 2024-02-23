@@ -34,7 +34,7 @@ const ContactForm = () => {
 			data-netlify='true'
 			onSubmit={handleSubmit}
 			data-netlify-honeypot='bot-field'
-			// data-netlify-recaptcha='true'
+			data-netlify-recaptcha='true'
 			netlify>
 			<input
 				type='hidden'
