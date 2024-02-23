@@ -1,77 +1,78 @@
-import React, { useState, useEffect } from 'react';
-import contact from '../../assets/Contact.svg';
-import text from '../../assets/contact_me_text.svg';
+import React from 'react';
+// import contact from '../../assets/Contact.svg';
+import text from '../../assets/book_appointment.svg';
+import { InlineWidget } from 'react-calendly';
 
 const Contact = () => {
-	const [isWhatsappVisible, setIsWhatsappVisible] = useState(false);
-	const [isLinkedinVisible, setIsLinkedinVisible] = useState(false);
-	const [isGithubVisible, setIsGithubVisible] = useState(false);
-	const [isMediumVisible, setIsMediumVisible] = useState(false);
-	const [isGmailVisible, setIsGmailVisible] = useState(false);
-	const [isFacebookVisible, setIsFacebookVisible] = useState(false);
-	const [isTwitterVisible, setIsTwitterVisible] = useState(false);
+	// const [isWhatsappVisible, setIsWhatsappVisible] = useState(false);
+	// const [isLinkedinVisible, setIsLinkedinVisible] = useState(false);
+	// const [isGithubVisible, setIsGithubVisible] = useState(false);
+	// const [isMediumVisible, setIsMediumVisible] = useState(false);
+	// const [isGmailVisible, setIsGmailVisible] = useState(false);
+	// const [isFacebookVisible, setIsFacebookVisible] = useState(false);
+	// const [isTwitterVisible, setIsTwitterVisible] = useState(false);
 
-	useEffect(() => {
-		const whatsappTimeoutId = setTimeout(() => {
-			setIsWhatsappVisible(true);
-		}, 1000);
+	// useEffect(() => {
+	// 	const whatsappTimeoutId = setTimeout(() => {
+	// 		setIsWhatsappVisible(true);
+	// 	}, 1000);
 
-		return () => clearTimeout(whatsappTimeoutId);
-	}, []);
+	// 	return () => clearTimeout(whatsappTimeoutId);
+	// }, []);
 
-	useEffect(() => {
-		const linkedinTimeoutId = setTimeout(() => {
-			setIsLinkedinVisible(true);
-		}, 2000);
+	// useEffect(() => {
+	// 	const linkedinTimeoutId = setTimeout(() => {
+	// 		setIsLinkedinVisible(true);
+	// 	}, 2000);
 
-		return () => clearTimeout(linkedinTimeoutId);
-	}, []);
+	// 	return () => clearTimeout(linkedinTimeoutId);
+	// }, []);
 
-	useEffect(() => {
-		const githubTimeoutId = setTimeout(() => {
-			setIsGithubVisible(true);
-		}, 3000);
+	// useEffect(() => {
+	// 	const githubTimeoutId = setTimeout(() => {
+	// 		setIsGithubVisible(true);
+	// 	}, 3000);
 
-		return () => clearTimeout(githubTimeoutId);
-	}, []);
+	// 	return () => clearTimeout(githubTimeoutId);
+	// }, []);
 
-	useEffect(() => {
-		const mediumTimeoutId = setTimeout(() => {
-			setIsMediumVisible(true);
-		}, 4000);
+	// useEffect(() => {
+	// 	const mediumTimeoutId = setTimeout(() => {
+	// 		setIsMediumVisible(true);
+	// 	}, 4000);
 
-		return () => clearTimeout(mediumTimeoutId);
-	}, []);
+	// 	return () => clearTimeout(mediumTimeoutId);
+	// }, []);
 
-	useEffect(() => {
-		const gmailTimeoutId = setTimeout(() => {
-			setIsGmailVisible(true);
-		}, 5000);
+	// useEffect(() => {
+	// 	const gmailTimeoutId = setTimeout(() => {
+	// 		setIsGmailVisible(true);
+	// 	}, 5000);
 
-		return () => clearTimeout(gmailTimeoutId);
-	}, []);
+	// 	return () => clearTimeout(gmailTimeoutId);
+	// }, []);
 
-	useEffect(() => {
-		const facebookTimeoutId = setTimeout(() => {
-			setIsFacebookVisible(true);
-		}, 6000);
+	// useEffect(() => {
+	// 	const facebookTimeoutId = setTimeout(() => {
+	// 		setIsFacebookVisible(true);
+	// 	}, 6000);
 
-		return () => clearTimeout(facebookTimeoutId);
-	}, []);
+	// 	return () => clearTimeout(facebookTimeoutId);
+	// }, []);
 
-	useEffect(() => {
-		const twitterTimeoutId = setTimeout(() => {
-			setIsTwitterVisible(true);
-		}, 7000);
+	// useEffect(() => {
+	// 	const twitterTimeoutId = setTimeout(() => {
+	// 		setIsTwitterVisible(true);
+	// 	}, 7000);
 
-		return () => clearTimeout(twitterTimeoutId);
-	}, []);
+	// 	return () => clearTimeout(twitterTimeoutId);
+	// }, []);
 
-	const emailAddress = 'patrickakhamiogu@gmail.com';
+	// const emailAddress = 'patrickakhamiogu@gmail.com';
 
-	const handleEmailClick = () => {
-		window.location.href = `mailto:${emailAddress}`;
-	};
+	// const handleEmailClick = () => {
+	// 	window.location.href = `mailto:${emailAddress}`;
+	// };
 
 	return (
 		<div
@@ -83,7 +84,12 @@ const Contact = () => {
 					alt='Contact-me-text'
 				/>
 			</div>
-			<div className='relative w-full bg-black p-12 lg:p-24'>
+			<div className='bg-black p-12 lg:p-24 w-full'>
+				<div className=''>
+					<InlineWidget url='https://calendly.com/patrickakhamiogu' />
+				</div>
+			</div>
+			{/* <div className='relative w-full bg-black p-12 lg:p-24'>
 				<img
 					src={contact}
 					alt='images'
@@ -152,7 +158,7 @@ const Contact = () => {
 						<i className='fa-brands fa-twitter text-white text-2xl md:text-3xl'></i>
 					</a>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };

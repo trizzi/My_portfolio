@@ -8,5 +8,5 @@ module.exports = {
 			textColor: ['focus', 'hover', 'placehoder'],
 		},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/forms')],
 };
