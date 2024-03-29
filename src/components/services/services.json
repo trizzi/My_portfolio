@@ -2,14 +2,14 @@
     {
         "id": 1,
         "heading": "Frontend",
-        "name": "Frontend Guru",
+        "name": "Frontend Expert",
         "image": "img/frontend-icon.svg",
         "text": "Front-end development is my expertise for crafting visually appealing and user-centric websites, ensuring seamless user experiences through responsive design and interactive interfaces in my portfolio."
       },
       {
         "id": 2,
         "heading": "Backend",
-        "name": "Backend Expert",
+        "name": "Backend Guru",
         "image": "img/backend-icon.svg",
         "text": "I specialize in backend development, focusing on the server-side architecture and databases, ensuring robust and efficient functionality for web applications and services."
       },

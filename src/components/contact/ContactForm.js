@@ -33,7 +33,7 @@ const ContactForm = () => {
 			method='post'
 			data-netlify='true'
 			onSubmit={handleSubmit}
-			data-netlify-honeypot='bot-field'
+			netlify-honeypot='bot-field'
 			data-netlify-recaptcha='true'
 			netlify>
 			<input
@@ -42,8 +42,11 @@ const ContactForm = () => {
 				value='contact v1'
 			/>
 			<div hidden>
-				<input name='bot-field' />
+				<label>
+					Don’t fill this out if you’re human: <input name='bot-field' />
+				</label>
 			</div>
+
 			<div className='flex justify-between gap-4'>
 				<label htmlFor='First Name'>
 					First Name
