@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ContactPrototype = () => {
-	return <div>Testing</div>;
+	return <div>ContactPrototype</div>;
 };
 
 export default ContactPrototype;
