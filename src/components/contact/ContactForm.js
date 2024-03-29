@@ -95,7 +95,7 @@ const ContactForm = () => {
 					placeholder='Type Message ...'
 				/>
 			</label>
-			<Link to='#'>
+			<Link>
 				<Button
 					text={'Send'}
 					className='mt-4 text-white'
