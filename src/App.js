@@ -10,6 +10,7 @@ import Projects from './components/projects/Projects';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import ContactForm from './components/contact/ContactForm';
+import BookAppointment from './components/contact/BookAppointment';
 
 function App() {
 	const { theme } = useTheme();
@@ -49,6 +50,11 @@ function App() {
 								</>
 							</Suspense>
 						}
+					/>
+					<Route
+						exact
+						path='/bookappointment'
+						element={<BookAppointment />}
 					/>
 				</Routes>
 			</Router>
