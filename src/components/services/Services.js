@@ -16,20 +16,20 @@ const Services = () => {
 				backgroundColor: 'rgba(0,0,0,0.9)',
 			}}>
 			<div>
-				<div className='flex px-12 pt-8'>
+				<div className='flex justify-center'>
 					<div>
 						<img
 							src={serviceLogo}
 							alt='service-logo'
+							className='mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0'
 						/>
 					</div>
-					<div className='pt-3'>
-						<h1>Services</h1>
-					</div>
+
+					<h1 className='text-4xl text-bold pb-6'>Services</h1>
 				</div>
 			</div>
 			<div className='container mx-auto p-8 md:p-20'>
-				<div className='relative flex flex-wrap w-full lg:justify-center lg:space-x-6 pt-10 md:pt-20'>
+				<div className='relative flex flex-wrap w-full lg:justify-center lg:space-x-6 '>
 					{services.map((service) => (
 						<ServiceItem
 							key={service.id}

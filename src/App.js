@@ -7,6 +7,7 @@ import showcaseImg from './assets/showcase_image.svg';
 import Showcase from './components/showcase/Showcase';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
+import Blogs from './components/blog/Blogs';
 import Services from './components/services/Services';
 import Contact from './components/contact/Contact';
 import ContactForm from './components/contact/ContactForm';
@@ -45,6 +46,7 @@ function App() {
 									<About />
 									<Projects />
 									<Services />
+									<Blogs />
 									<Contact />
 									<ContactForm />
 								</>

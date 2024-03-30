@@ -8,35 +8,36 @@ const Projects = () => {
 	return (
 		<div
 			name='section3'
-			className='container-xl'
+			className='px-4 py-10'
 			style={{
 				backgroundImage: `url(${projectImage})`,
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
 				backgroundColor: 'rgba(0,0,0,0.9)',
 			}}>
-			<div>
-				<div className='flex px-12 pt-8'>
-					<div>
-						<img
-							src={projectLogo}
-							alt='service-logo'
-						/>
-					</div>
-					<div className='pt-3'>
-						<h1>Projects</h1>
+			<div className='container-xl lg:container m-auto'>
+				<div>
+					<div className='flex justify-center '>
+						<div>
+							<img
+								src={projectLogo}
+								alt='service-logo'
+								className='mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0'
+							/>
+						</div>
+						<h1 className='text-4xl text-bold pb-6'>Projects</h1>
 					</div>
 				</div>
-			</div>
 
-			<div className='container mx-auto pt-0 px-8 md:p-20'>
-				<div className='flex flex-wrap gap-4'>
-					{projects.map((project) => (
-						<ProjectItem
-							key={project.id}
-							project={project}
-						/>
-					))}
+				<div className=''>
+					<div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+						{projects.map((project) => (
+							<ProjectItem
+								key={project.id}
+								project={project}
+							/>
+						))}
+					</div>
 				</div>
 			</div>
 		</div>

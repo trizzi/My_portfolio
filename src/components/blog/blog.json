@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Looping Through Arrays In Javascript",
+      "image": "https://source.unsplash.com/QQ9LainS6tI",
+      "text": "There are five ways to loop through arrays. They include: While loop Do-while loop For loop ForEach loop Map loop While Loop A [while] statement executes its statements as long as a specified condition.",
+      "link": "https://medium.com/@patrickakhamiogu/looping-through-arrays-in-javascript-13eec9eeaeb4"
+    },
+    {
+        "id": 2,
+        "name": "Pointers In C Programming",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "C is designed to be a low-level language that can easily access memory locations and perform memory-related operations. For instance, the scanf() function places the value entered by the user at the location, or address, of the variable. This is accomplished by using the ",
+        "link": "https://medium.com/@patrickakhamiogu/pointers-in-c-programming-4534b4d296e7"
+      },
+      {
+        "id": 3,
+        "name": "How To Use Props In React",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "Everyone new to React is perplexed by React props, which are never mentioned in any other framework and are rarely explained on their own. They are one of the first things you will learn in React once you have mastered the JSX syntax. React component props are essentially used to",
+        "link": "https://medium.com/@patrickakhamiogu/how-to-use-props-in-react-f6fee1b538f8"
+      },
+      {
+        "id": 4,
+        "name": "Javascript’s Bundler Overview",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "Let’s start by defining a JavaScript bundler. A JavaScript bundler is a program that compiles all of your code and its dependencies into a single JavaScript file that is ready for production and can be loaded into a browser. Also, when working with libraries that have numerous dependencies or when",
+        "link": "https://medium.com/@patrickakhamiogu/javascripts-bundler-overview-1b5506be4487"
+      },
+      {
+        "id": 5,
+        "name": "Higher-Order Functions, and Callback Functions",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "Hello and welcome back to my page. I will try to break down these concepts. By the end of this read, you will understand the concepts of Higher-Order functions, and Callback functions, why they are used, and when to use them",
+        "link": "https://medium.com/@patrickakhamiogu/higher-order-functions-and-callback-functions-55641326dca4"
+      },
+      {
+        "id": 6,
+        "name": "Conditional Statements in C Programming",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "There are five ways to loop through arrays. They include: While loop Do-while loop For loop ForEach loop Map loop While Loop A [while] statement executes its statements as long as a specified condition.",
+        "link": "https://medium.com/@patrickakhamiogu/conditional-statements-in-c-programming-33954f881ecd"
+      },
+      {
+        "id": 7,
+        "name": "Loops in C Programming",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "Loops are codes that can execute statements repeatedly while an expression is true, looping over and over again. An infinite loop is one that continues indefinitely because the loop condition never evaluate",
+        "link": "https://medium.com/@patrickakhamiogu/loops-in-c-programming-d9724cac3626"
+      },
+      {
+        "id": 8,
+        "name": "Functions in C Programming",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "A function: is a block of code that performs a specific task is reusable makes a program easier to test can be modified without changing the calling program Even a simple program is easier to understand when",
+        "link": "https://medium.com/@patrickakhamiogu/functions-in-c-programming-2cb72a4a9e36"
+      },
+      {
+        "id": 9,
+        "name": "Variable Scope in C Programming",
+        "image": "https://source.unsplash.com/QQ9LainS6tI",
+        "text": "Variable scope refers to the visibility of variables within a program. Variables declared in a function are local to that block of code and cannot be referred to outside the function. Variables declared outside",
+        "link": "https://medium.com/@patrickakhamiogu/variable-scope-in-c-programming-2ac5801a5e53"
+      }
+      
+
+]

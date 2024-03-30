@@ -94,9 +94,17 @@ const Navbar = () => {
 								onClick={closeMenu}>
 								Services
 							</Link>
-
 							<Link
 								to='section5'
+								className='block py-2 hover:text-gray-300'
+								smooth={true}
+								duration={500}
+								onClick={closeMenu}>
+								Blogs
+							</Link>
+
+							<Link
+								to='section6'
 								className='block py-2 hover:text-gray-300'
 								onClick={closeMenu}>
 								<Button
@@ -137,9 +145,16 @@ const Navbar = () => {
 						duration={500}>
 						Services
 					</Link>
-
 					<Link
 						to='section5'
+						className='hover:text-gray-400'
+						smooth={true}
+						duration={500}>
+						Blogs
+					</Link>
+
+					<Link
+						to='section6'
 						className='mt-[-1rem]'>
 						<Button
 							text={'Hire Me'}

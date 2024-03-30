@@ -49,11 +49,11 @@ const About = () => {
 								a web developer, <br />
 								focusing primarily on front-end development, complemented by
 								expertise in backend <br />
-								development
+								and a bit of mobile development.
 							</p>
 						</div>
 						<div className='lg:ml-24 md:mx-16 mx-14'>
-							<h1 className='font-bold pb-4'>Passion and Approach</h1>
+							<h1 className='font-bold py-4'>Passion and Approach</h1>
 							<p>
 								As a deadline-focused professional, I am recognized for my
 								proactive approach, effective communication, and results-driven
