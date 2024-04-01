@@ -1,41 +1,45 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import Button from '../button/Button';
 
 const ContactForm = () => {
-	const [firstName, setFirstName] = useState('');
-	const [lastName, setLastName] = useState('');
-	const [email, setEmail] = useState('');
-	const [message, setMessage] = useState('');
+	const [formData, setFormData] = useState({
+		firstName: '',
+		lastName: '',
+		email: '',
+		message: '',
+	});
 
-	const navigate = useNavigate();
+	const handleChange = (e) => {
+		const { name, value } = e.target;
+		setFormData({ ...formData, [name]: value });
+	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 
-		const myForm = e.target;
-		const formData = new FormData(myForm);
+		try {
+			const response = await fetch('/.netlify/functions/submit-form', {
+				method: 'POST',
+				body: JSON.stringify(formData),
+			});
 
-		fetch('/', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-			body: new URLSearchParams(formData).toString(),
-		})
-			.then(() => navigate('/thank-you/'))
-			.catch((error) => alert(error));
+			if (response.ok) {
+				// Form submission successful
+				console.log('Form submitted successfully');
+			} else {
+				// Form submission failed
+				console.error('Form submission failed');
+			}
+		} catch (error) {
+			console.error('An error occurred while submitting the form:', error);
+		}
 	};
 
 	return (
 		<form
 			className='flex flex-col items-center justify-center bg-black py-8'
-			name='contact v1'
-			method='POST'
-			data-netlify='true'
-			onSubmit={handleSubmit}
-			netlify-honeypot='bot-field'
-			data-netlify-recaptcha='true'
-			netlify>
+			onSubmit={handleSubmit}>
 			<input
 				type='hidden'
 				name='form-name'
@@ -53,10 +57,10 @@ const ContactForm = () => {
 					<input
 						type='text'
 						id='first_name'
-						name='first_name'
+						name='firstName'
 						className='mb-5 block w-40 text-black rounded-md border-0 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
-						value={firstName}
-						onChange={(e) => setFirstName(e.target.value)}
+						value={formData.firstName}
+						onChange={handleChange}
 						placeholder='First Name'
 					/>
 				</label>
@@ -65,10 +69,10 @@ const ContactForm = () => {
 					<input
 						type='text'
 						id='last_name'
-						name='last_name'
+						name='lastName'
 						className='mb-5 block w-40 text-black rounded-md border-0 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
-						value={lastName}
-						onChange={(e) => setLastName(e.target.value)}
+						value={formData.lastName}
+						onChange={handleChange}
 						placeholder='Last Name'
 					/>
 				</label>
@@ -81,8 +85,8 @@ const ContactForm = () => {
 					id='email'
 					name='email'
 					className='mb-5 block w-[21rem] text-black rounded-md border-0 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
-					value={email}
-					onChange={(e) => setEmail(e.target.value)}
+					value={formData.email}
+					onChange={handleChange}
 					placeholder='Email'
 				/>
 			</label>
@@ -93,8 +97,8 @@ const ContactForm = () => {
 					id='message'
 					name='message'
 					className='mb-5 block w-[21rem] text-black rounded-md border-0 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
-					value={message}
-					onChange={(e) => setMessage(e.target.value)}
+					value={formData.message}
+					onChange={handleChange}
 					placeholder='Type Message ...'
 				/>
 			</label>
