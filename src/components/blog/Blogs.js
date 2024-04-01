@@ -13,7 +13,7 @@ const Blogs = () => {
 					<img
 						src={blogLogo}
 						alt='blog-logo'
-						className='mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0'
+						className='h-24 rounded-full sm:shrink-0'
 					/>
 					<h1 className='text-4xl text-bold '>Blogs</h1>
 				</div>

@@ -32,12 +32,11 @@ const BlogItem = ({ blog: { name, image, text, link } }) => {
 
 			<div
 				style={{ color: theme.primary }}
-				className='p-4 flex justify-end'>
+				className='p-4 flex justify-end mb-32 md:mb-4'>
 				<a href={link}>
 					<Button
 						text={'Read More'}
-						className='text-black'
-						background
+						className='py-2 px-32 hover:bg-violet-6 00'
 					/>
 				</a>
 			</div>
