@@ -30,7 +30,7 @@ const ContactForm = () => {
 		<form
 			className='flex flex-col items-center justify-center bg-black py-8'
 			name='contact v1'
-			method='post'
+			method='POST'
 			data-netlify='true'
 			onSubmit={handleSubmit}
 			netlify-honeypot='bot-field'
@@ -101,7 +101,6 @@ const ContactForm = () => {
 			<Link>
 				<Button
 					text={'Send'}
-					className='mt-4 text-white'
 					background
 					type='submit'
 				/>
