@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import Button from '../button/Button';
 
 const ContactForm = () => {
@@ -102,13 +101,12 @@ const ContactForm = () => {
 					placeholder='Type Message ...'
 				/>
 			</label>
-			<Link>
-				<Button
-					text={'Send'}
-					background
-					type='submit'
-				/>
-			</Link>
+
+			<Button
+				text={'Send'}
+				background
+				type='submit'
+			/>
 		</form>
 	);
 };
