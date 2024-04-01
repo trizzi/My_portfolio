@@ -45,7 +45,7 @@ const ContactForm = () => {
 			<input
 				type='hidden'
 				name='form-name'
-				value='contact v1'
+				value='contact'
 			/>
 			<div hidden>
 				<label>
