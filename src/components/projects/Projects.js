@@ -8,6 +8,7 @@ const Projects = () => {
 	return (
 		<div
 			name='section3'
+			data-testid='project-section'
 			className='px-4 py-10'
 			style={{
 				backgroundImage: `url(${projectImage})`,
