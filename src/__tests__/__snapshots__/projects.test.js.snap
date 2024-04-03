@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Projects section with correct content 1`] = `
+<div>
+  <div
+    class="px-4 py-10"
+    data-testid="project-section"
+    name="section3"
+    style="background-image: url(projects_background_image.svg); background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0.9);"
+  >
+    <div
+      class="container-xl lg:container m-auto"
+    >
+      <div>
+        <div
+          class="flex justify-center "
+        >
+          <div>
+            <img
+              alt="service-logo"
+              class="mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0"
+              src="project_icon.svg"
+            />
+          </div>
+          <h1
+            class="text-4xl text-bold pb-6"
+          >
+            Projects
+          </h1>
+        </div>
+      </div>
+      <div
+        class=""
+      >
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8"
+        >
+          <div
+            class="w-full mt-10 lg:mt-0 lg:mr-0 md:w-2/5 lg:w-[400px] rounded-xl overflow-hidden shadow-xl"
+            style="opacity: 0; transform: translateY(100px) translateZ(0);"
+          >
+            <img
+              alt="project_image"
+              class="rounded-t-lg w-full"
+            />
+            <div
+              class="pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl"
+            >
+              <h3
+                class="font-bold text-xl py-5"
+              />
+              <p />
+              <span
+                class="whitespace-nowrap flex items-center pt-2"
+              >
+                <a>
+                  <button
+                    class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                    style="background-color: rgb(153, 50, 204); color: rgb(255, 255, 255); border: 2px solid #9932cc; opacity: 0;"
+                    tabindex="0"
+                  >
+                    Explore
+                  </button>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            class="w-full mt-10 lg:mt-0 lg:mr-0 md:w-2/5 lg:w-[400px] rounded-xl overflow-hidden shadow-xl"
+            style="opacity: 0; transform: translateY(100px) translateZ(0);"
+          >
+            <img
+              alt="project_image"
+              class="rounded-t-lg w-full"
+            />
+            <div
+              class="pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl"
+            >
+              <h3
+                class="font-bold text-xl py-5"
+              />
+              <p />
+              <span
+                class="whitespace-nowrap flex items-center pt-2"
+              >
+                <a>
+                  <button
+                    class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                    style="background-color: rgb(153, 50, 204); color: rgb(255, 255, 255); border: 2px solid #9932cc; opacity: 0;"
+                    tabindex="0"
+                  >
+                    Explore
+                  </button>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div
+            class="w-full mt-10 lg:mt-0 lg:mr-0 md:w-2/5 lg:w-[400px] rounded-xl overflow-hidden shadow-xl"
+            style="opacity: 0; transform: translateY(100px) translateZ(0);"
+          >
+            <img
+              alt="project_image"
+              class="rounded-t-lg w-full"
+            />
+            <div
+              class="pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl"
+            >
+              <h3
+                class="font-bold text-xl py-5"
+              />
+              <p />
+              <span
+                class="whitespace-nowrap flex items-center pt-2"
+              >
+                <a>
+                  <button
+                    class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                    style="background-color: rgb(153, 50, 204); color: rgb(255, 255, 255); border: 2px solid #9932cc; opacity: 0;"
+                    tabindex="0"
+                  >
+                    Explore
+                  </button>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

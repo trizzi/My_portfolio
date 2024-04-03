@@ -7,6 +7,7 @@ const Blogs = () => {
 	return (
 		<div
 			name='section5'
+			data-testid='blog-section'
 			className='bg-black px-4 py-10'>
 			<div className='container-xl lg:container m-auto'>
 				<div className='flex justify-center'>

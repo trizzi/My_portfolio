@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Blogs section with correct content 1`] = `
+<div>
+  <div
+    class="bg-black px-4 py-10"
+    data-testid="blog-section"
+    name="section5"
+  >
+    <div
+      class="container-xl lg:container m-auto"
+    >
+      <div
+        class="flex justify-center"
+      >
+        <img
+          alt="blog-logo"
+          class="h-24 rounded-full sm:shrink-0"
+          src="about_button.svg"
+        />
+        <h1
+          class="text-4xl text-bold "
+        >
+          Blogs
+        </h1>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 gap-6"
+      >
+        <div
+          class="bg-white rounded-xl relative pb-6"
+          style="opacity: 0; transform: translateY(100px) translateZ(0);"
+        >
+          <img
+            alt="blog_image"
+            class="h-[50%] w-full"
+          />
+          <div
+            class="p-4"
+          >
+            <h3
+              class="text-xl text-[#9932CC]"
+            />
+          </div>
+          <div
+            class="flex-grow border-t border-[#9932CC] shadow-xl "
+          />
+          <div
+            class="text-black p-4"
+          >
+            Text 1...
+          </div>
+          <button
+            class="text-violet-700 hover:text-violet-400 pl-4"
+          >
+            More
+          </button>
+          <div
+            class="p-4 flex justify-end mb-32 md:mb-4"
+          >
+            <a>
+              <button
+                class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                style="background-color: transparent; color: rgb(0, 0, 0); border: 2px solid #9932cc; opacity: 0;"
+                tabindex="0"
+              >
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-xl relative pb-6"
+          style="opacity: 0; transform: translateY(100px) translateZ(0);"
+        >
+          <img
+            alt="blog_image"
+            class="h-[50%] w-full"
+          />
+          <div
+            class="p-4"
+          >
+            <h3
+              class="text-xl text-[#9932CC]"
+            />
+          </div>
+          <div
+            class="flex-grow border-t border-[#9932CC] shadow-xl "
+          />
+          <div
+            class="text-black p-4"
+          >
+            Text 2...
+          </div>
+          <button
+            class="text-violet-700 hover:text-violet-400 pl-4"
+          >
+            More
+          </button>
+          <div
+            class="p-4 flex justify-end mb-32 md:mb-4"
+          >
+            <a>
+              <button
+                class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                style="background-color: transparent; color: rgb(0, 0, 0); border: 2px solid #9932cc; opacity: 0;"
+                tabindex="0"
+              >
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-xl relative pb-6"
+          style="opacity: 0; transform: translateY(100px) translateZ(0);"
+        >
+          <img
+            alt="blog_image"
+            class="h-[50%] w-full"
+          />
+          <div
+            class="p-4"
+          >
+            <h3
+              class="text-xl text-[#9932CC]"
+            />
+          </div>
+          <div
+            class="flex-grow border-t border-[#9932CC] shadow-xl "
+          />
+          <div
+            class="text-black p-4"
+          >
+            Text 3...
+          </div>
+          <button
+            class="text-violet-700 hover:text-violet-400 pl-4"
+          >
+            More
+          </button>
+          <div
+            class="p-4 flex justify-end mb-32 md:mb-4"
+          >
+            <a>
+              <button
+                class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                style="background-color: transparent; color: rgb(0, 0, 0); border: 2px solid #9932cc; opacity: 0;"
+                tabindex="0"
+              >
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
