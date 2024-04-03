@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Showcase component renders thumbnail 1`] = `
+<div>
+  <div
+    class="flex"
+    name="section1"
+  >
+    <div
+      class="flex flex-col md:flex-row justify-between  md:container md:mx-auto items-center py-44"
+    >
+      <div
+        class="px-12"
+      >
+        <span
+          style="opacity: 0;"
+        >
+          <img
+            alt="Intro"
+            data-testid="thumbnail"
+            src="Text.svg"
+          />
+        </span>
+        <a>
+          <button
+            class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+            style="background-color: rgb(153, 50, 204); color: rgb(255, 255, 255); border: 2px solid #9932cc; opacity: 0;"
+            tabindex="0"
+          >
+            Explore
+          </button>
+        </a>
+      </div>
+      <div
+        style="transform: translateX(-1000px) translateZ(0);"
+      >
+        <div
+          class="sm:mx-10 md:my-20 "
+        >
+          <div
+            class="hidden md:flex text-white bg-[#29292E] opacity-90 rounded-full py-4 md:pl-4 md:pr-16 w-fit hover:bg-black"
+          >
+            <img
+              alt="Images"
+              src="profile-picture.svg"
+            />
+            <a
+              class="pt-3 pl-2"
+              href="mailto:patrickakhamiogu@gmail.com"
+            >
+              <p>
+                patrickakhamiogu@gmail.com
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
