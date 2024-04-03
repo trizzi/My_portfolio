@@ -13,7 +13,7 @@ describe('ThemeContextProvider', () => {
 			return <div>{JSON.stringify(theme)}</div>;
 		};
 
-		render(
+		const { container } = render(
 			<ThemeContextProvider>
 				<TestComponent />
 			</ThemeContextProvider>,
@@ -29,6 +29,8 @@ describe('ThemeContextProvider', () => {
 			transparent: 'transparent',
 			current: 'inherit',
 		});
+
+		expect(container).toMatchSnapshot();
 	});
 
 	// test('uses default theme values if not provided', () => {

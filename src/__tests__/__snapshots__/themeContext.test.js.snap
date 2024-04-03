@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeContextProvider provides theme values through context 1`] = `
+<div>
+  <div>
+    {"primary":{"purple":"#9932CC"},"secondary":{"grey":"#eee"},"backgroundcolor":{"primary":"#000000"},"textcolor":{"light":"#ffffff","dark":"#222222","black":"#000000"},"transparent":"transparent","current":"inherit"}
+  </div>
+</div>
+`;
