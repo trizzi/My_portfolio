@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Button component matches snapshot 1`] = `
+<div>
+  <button
+    class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+    style="background-color: transparent; color: rgb(0, 0, 0); border: 2px solid #6c63ff; opacity: 0;"
+    tabindex="0"
+  >
+    Click me
+  </button>
+</div>
+`;

@@ -12,7 +12,7 @@ export const ThemeContextProvider = ({ children }) => {
 			grey: '#eee',
 		},
 		backgroundcolor: {
-			primary: '000000',
+			primary: '#000000',
 		},
 		textcolor: {
 			light: '#ffffff',
