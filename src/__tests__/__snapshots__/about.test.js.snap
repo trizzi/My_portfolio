@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component renders About section with correct content 1`] = `
+<div>
+  <div
+    class="md:h-[90vh] lg:h-[83vh]"
+    data-testid="about-section"
+    name="section2"
+    style="background-image: url(about_background_image.svg); background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0.9);"
+  >
+    <div
+      class="flex flex-col sm:flex-row w-full justify-between text-white"
+    >
+      <div
+        class="bg-[#29292E] opacity-80 md:w-1/2"
+      >
+        <div
+          class="mt-6"
+        >
+          <div
+            class="flex pl-6 pr-12 md:px-12 pt-8"
+          >
+            <div>
+              <img
+                alt="about-logo"
+                src="about_button.svg"
+              />
+            </div>
+            <div>
+              <h1>
+                About
+              </h1>
+              <img
+                alt="Patrick-Akhamiogu"
+                src="PATRICK AKHAMIOGU.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="lg:ml-24 md:mx-16 mx-14"
+          >
+            <h1
+              class="font-bold pb-4"
+            >
+              Professional Background
+            </h1>
+            <p>
+              With years of professional experience, I have honed my skills as a web developer, 
+              <br />
+              focusing primarily on front-end development, complemented by expertise in backend 
+              <br />
+              and a bit of mobile development.
+            </p>
+          </div>
+          <div
+            class="lg:ml-24 md:mx-16 mx-14"
+          >
+            <h1
+              class="font-bold py-4"
+            >
+              Passion and Approach
+            </h1>
+            <p>
+              As a deadline-focused professional, I am recognized for my proactive approach, effective communication, and results-driven orientation. My primary interest lies in addressing tangible customer challenges with robust business justifications. Currently seeking opportunities to broaden my skills in web development and project management, my proficiency in Graphic design is integral to crafting visually stunning websites with exceptional UI/UX designs. Furthermore, I have a personal passion for music, music production, and video editing.
+            </p>
+          </div>
+          <div
+            class="lg:ml-24 md:mx-16 my-4 ml-14 mb-10"
+          >
+            <a>
+              <button
+                class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                style="background-color: transparent; color: rgb(0, 0, 0); border: 2px solid #9932cc; opacity: 0;"
+                tabindex="0"
+              >
+                Hire Me
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hidden md:block md:visible sm:w-1/2 md:h-[920px] lg:h-[800px]"
+        style="background-image: url(about_background_image.svg); background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0.9);"
+      >
+        <div
+          style="transform: translateX(-1000px) translateZ(0);"
+        >
+          <div
+            class="md:mt-[40rem] md:ml-[25rem]"
+          >
+            <div
+              class="md:mx-10 md:my-20 "
+            >
+              <div
+                class="hidden md:flex text-white bg-[#29292E] opacity-90 rounded-full p-4 w-fit hover:bg-black"
+              >
+                <img
+                  alt="Images"
+                  src="profile-picture.svg"
+                />
+                <a
+                  class="pt-3 pl-2"
+                  href="mailto:patrickakhamiogu@gmail.com"
+                >
+                  <p>
+                    patrickakhamiogu@gmail.com
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`About component triggers email link on email click 1`] = `
+<div>
+  <div
+    class="md:h-[90vh] lg:h-[83vh]"
+    data-testid="about-section"
+    name="section2"
+    style="background-image: url(about_background_image.svg); background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0.9);"
+  >
+    <div
+      class="flex flex-col sm:flex-row w-full justify-between text-white"
+    >
+      <div
+        class="bg-[#29292E] opacity-80 md:w-1/2"
+      >
+        <div
+          class="mt-6"
+        >
+          <div
+            class="flex pl-6 pr-12 md:px-12 pt-8"
+          >
+            <div>
+              <img
+                alt="about-logo"
+                src="about_button.svg"
+              />
+            </div>
+            <div>
+              <h1>
+                About
+              </h1>
+              <img
+                alt="Patrick-Akhamiogu"
+                src="PATRICK AKHAMIOGU.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="lg:ml-24 md:mx-16 mx-14"
+          >
+            <h1
+              class="font-bold pb-4"
+            >
+              Professional Background
+            </h1>
+            <p>
+              With years of professional experience, I have honed my skills as a web developer, 
+              <br />
+              focusing primarily on front-end development, complemented by expertise in backend 
+              <br />
+              and a bit of mobile development.
+            </p>
+          </div>
+          <div
+            class="lg:ml-24 md:mx-16 mx-14"
+          >
+            <h1
+              class="font-bold py-4"
+            >
+              Passion and Approach
+            </h1>
+            <p>
+              As a deadline-focused professional, I am recognized for my proactive approach, effective communication, and results-driven orientation. My primary interest lies in addressing tangible customer challenges with robust business justifications. Currently seeking opportunities to broaden my skills in web development and project management, my proficiency in Graphic design is integral to crafting visually stunning websites with exceptional UI/UX designs. Furthermore, I have a personal passion for music, music production, and video editing.
+            </p>
+          </div>
+          <div
+            class="lg:ml-24 md:mx-16 my-4 ml-14 mb-10"
+          >
+            <a>
+              <button
+                class="
+			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
+        undefined undefined mt-5"
+                style="background-color: transparent; color: rgb(0, 0, 0); border: 2px solid #9932cc; opacity: 0;"
+                tabindex="0"
+              >
+                Hire Me
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hidden md:block md:visible sm:w-1/2 md:h-[920px] lg:h-[800px]"
+        style="background-image: url(about_background_image.svg); background-repeat: no-repeat; background-size: cover; background-color: rgba(0, 0, 0, 0.9);"
+      >
+        <div
+          style="transform: translateX(-1000px) translateZ(0);"
+        >
+          <div
+            class="md:mt-[40rem] md:ml-[25rem]"
+          >
+            <div
+              class="md:mx-10 md:my-20 "
+            >
+              <div
+                class="hidden md:flex text-white bg-[#29292E] opacity-90 rounded-full p-4 w-fit hover:bg-black"
+              >
+                <img
+                  alt="Images"
+                  src="profile-picture.svg"
+                />
+                <a
+                  class="pt-3 pl-2"
+                  href="mailto:patrickakhamiogu@gmail.com"
+                >
+                  <p>
+                    patrickakhamiogu@gmail.com
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

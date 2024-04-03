@@ -18,6 +18,7 @@ const About = () => {
 		<div
 			name='section2'
 			className='md:h-[90vh] lg:h-[83vh]'
+			data-testid='about-section'
 			style={{
 				backgroundImage: `url(${aboutImage})`,
 				backgroundRepeat: 'no-repeat',
