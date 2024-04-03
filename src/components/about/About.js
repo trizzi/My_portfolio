@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import Button from '../button/Button';
 import SlideIn from '../../utilities/SlideIn';
-import showcaseImg from '../../assets/Profile picture (1).svg';
+import showcaseImg from '../../assets/profile-picture.svg';
 import aboutLogo from '../../assets/about_button.svg';
 import text from '../../assets/PATRICK AKHAMIOGU.svg';
 import aboutImage from '../../assets/about_background_image.svg';

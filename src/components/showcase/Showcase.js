@@ -3,8 +3,8 @@ import { Link } from 'react-scroll';
 import Button from '../button/Button';
 import SlideIn from '../../utilities/SlideIn';
 import FadeIn from '../../utilities/FadeIn';
-import Text from '../../assets/Text (1).svg';
-import showcaseImg from '../../assets/Profile picture (1).svg';
+import Text from '../../assets/Text.svg';
+import showcaseImg from '../../assets/profile-picture.svg';
 
 const Showcase = () => {
 	const emailAddress = 'patrickakhamiogu@gmail.com';
@@ -23,6 +23,7 @@ const Showcase = () => {
 						<img
 							src={Text}
 							alt='Intro'
+							data-testid='thumbnail'
 						/>
 					</FadeIn>
 					<Link to='section3'>
@@ -30,6 +31,7 @@ const Showcase = () => {
 							text={'Explore'}
 							className='mt-4 text-white'
 							background
+							data-testid='button'
 						/>
 					</Link>
 				</div>

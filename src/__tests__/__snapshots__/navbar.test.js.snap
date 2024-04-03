@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the class when menu is open 1`] = `
+<a
+  closeMenu={[Function]}
+  onClick={[Function]}
+  style={Object {}}
+  toggle={[Function]}
+>
+  Home
+</a>
+`;
+
+exports[`changes the class when menu is open 2`] = `
+<a
+  closeMenu={[Function]}
+  onClick={[Function]}
+  style={Object {}}
+  toggle={[Function]}
+>
+  Home
+</a>
+`;
+
+exports[`changes the class when menu is open 3`] = `
+<a
+  closeMenu={[Function]}
+  onClick={[Function]}
+  style={Object {}}
+  toggle={[Function]}
+>
+  Home
+</a>
+`;
