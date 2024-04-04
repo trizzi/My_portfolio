@@ -18,4 +18,6 @@ test('renders BookAppointment component with Calendly inline widget', () => {
 
 	// Assert that the Calendly inline widget is present
 	expect(calendlyWidget).toBeInTheDocument();
+
+	expect(getByTestId).toMatchSnapshot();
 });
