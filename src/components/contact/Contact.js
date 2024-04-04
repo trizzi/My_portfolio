@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import contact from '../../assets/Contact.svg';
 import text from '../../assets/book_appointment.svg';
 import Button from '../button/Button';
 
 const Contact = () => {
-	const [isWhatsappVisible, setIsWhatsappVisible] = useState(false);
+	const [isTelegramVisible, setIsTelegramVisible] = useState(false);
 	const [isLinkedinVisible, setIsLinkedinVisible] = useState(false);
 	const [isGithubVisible, setIsGithubVisible] = useState(false);
 	const [isMediumVisible, setIsMediumVisible] = useState(false);
@@ -14,11 +14,11 @@ const Contact = () => {
 	const [isTwitterVisible, setIsTwitterVisible] = useState(false);
 
 	useEffect(() => {
-		const whatsappTimeoutId = setTimeout(() => {
-			setIsWhatsappVisible(true);
+		const telegramTimeoutId = setTimeout(() => {
+			setIsTelegramVisible(true);
 		}, 1000);
 
-		return () => clearTimeout(whatsappTimeoutId);
+		return () => clearTimeout(telegramTimeoutId);
 	}, []);
 
 	useEffect(() => {
@@ -105,15 +105,17 @@ const Contact = () => {
 					alt='images'
 				/>
 				<div
+					data-testid='telegram-link'
 					className={`absolute top-1/4 left-[9%] transform hover:scale-110 transition-transform ${
-						isWhatsappVisible ? 'opacity-100' : ''
+						isTelegramVisible ? 'opacity-100' : ''
 					} transition-opacity duration-300 bg-blue-500 rounded-full p-1 md:p-2`}>
-					<a href='https://t.me/pj_923'>
+					<a href='https://t.me/PJ923'>
 						<i className='fa-brands fa-telegram text-white text-2xl md:text-3xl'></i>
 					</a>
 				</div>
 
 				<div
+					data-testid='linkedin-link'
 					className={`absolute top-[18%] left-[60%] transform -translate-x-1/2 -translate-y-1/2 hover:rotate-45 transition-transform ${
 						isLinkedinVisible ? 'opacity-100' : ''
 					} transition-opacity  duration-300 bg-blue-500 rounded-full p-1 md:p-2`}>
@@ -123,6 +125,7 @@ const Contact = () => {
 				</div>
 
 				<div
+					data-testid='github-link'
 					className={`absolute top-[78%] left-[30%] transform  ${
 						isGithubVisible ? 'opacity-100' : ''
 					} hover:animate-bounce bg-black rounded-full p-1 md:p-2`}>
@@ -132,6 +135,7 @@ const Contact = () => {
 				</div>
 
 				<div
+					data-testid='medium-link'
 					className={`absolute top-1/3 left-[84%] md:left-[71%] transform  ${
 						isMediumVisible ? 'opacity-100' : ''
 					} hover:animate-bounce bg-black rounded-full p-1 md:p-2`}>
@@ -141,6 +145,7 @@ const Contact = () => {
 				</div>
 
 				<div
+					data-testid='gmail-link'
 					className={`absolute top-1/2 left-[10%] transform ${
 						isGmailVisible ? 'opacity-100' : ''
 					} hover:flip-horizontal duration-300 bg-white rounded-full p-1 md:p-2`}>
@@ -152,6 +157,7 @@ const Contact = () => {
 				</div>
 
 				<div
+					data-testid='facebook-link'
 					className={`absolute top-[14%] left-1/3 transform ${
 						isFacebookVisible ? 'opacity-100' : ''
 					} hover:flip-horizontal duration-300 bg-blue-500 rounded-full p-1 md:p-2`}>
@@ -161,6 +167,7 @@ const Contact = () => {
 				</div>
 
 				<div
+					data-testid='twitter-link'
 					className={`absolute top-2/3 left-[84%] md:left-[71%] transform  ${
 						isTwitterVisible ? 'opacity-100' : ''
 					} hover:animate-bounce bg-sky-500 rounded-full p-1 md:p-2`}>
