@@ -42,18 +42,25 @@ exports[`renders Projects section with correct content 1`] = `
             <img
               alt="project_image"
               class="rounded-t-lg w-full"
+              src="Image 1"
             />
             <div
               class="pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl"
             >
               <h3
                 class="font-bold text-xl py-5"
-              />
-              <p />
+              >
+                Project 1
+              </h3>
+              <p>
+                Description 1
+              </p>
               <span
                 class="whitespace-nowrap flex items-center pt-2"
               >
-                <a>
+                <a
+                  href="Link 1"
+                >
                   <button
                     class="
 			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
@@ -74,18 +81,25 @@ exports[`renders Projects section with correct content 1`] = `
             <img
               alt="project_image"
               class="rounded-t-lg w-full"
+              src="Image 2"
             />
             <div
               class="pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl"
             >
               <h3
                 class="font-bold text-xl py-5"
-              />
-              <p />
+              >
+                Project 2
+              </h3>
+              <p>
+                Description 2
+              </p>
               <span
                 class="whitespace-nowrap flex items-center pt-2"
               >
-                <a>
+                <a
+                  href="Link 2"
+                >
                   <button
                     class="
 			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400
@@ -106,18 +120,25 @@ exports[`renders Projects section with correct content 1`] = `
             <img
               alt="project_image"
               class="rounded-t-lg w-full"
+              src="Image 3"
             />
             <div
               class="pt-5 pb-10 px-10 bg-[#292A3C] opacity-80 rounded-xl"
             >
               <h3
                 class="font-bold text-xl py-5"
-              />
-              <p />
+              >
+                Project 3
+              </h3>
+              <p>
+                Description 3
+              </p>
               <span
                 class="whitespace-nowrap flex items-center pt-2"
               >
-                <a>
+                <a
+                  href="Link 3"
+                >
                   <button
                     class="
 			rounded-lg py-2 lg:py-2 px-5 whitespace-nowrap hover:bg-violet-400

@@ -2,12 +2,13 @@ import React from 'react';
 import services from './services.json';
 import ServiceItem from './ServiceItem';
 import serviceImage from '../../assets/services_background_image_lap.svg';
-import serviceLogo from '../../assets/Button (3).svg';
+import serviceLogo from '../../assets/Button-3.svg';
 
 const Services = () => {
 	return (
 		<div
 			name='section4'
+			data-testid='service-section'
 			className='container-xl mx-auto py-10 lg:py-32'
 			style={{
 				backgroundImage: `url(${serviceImage})`,
