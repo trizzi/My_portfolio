@@ -6,7 +6,7 @@ const BookAppointment = () => {
 		<div
 			className='bg-black h-[100vh]'
 			data-testid='calendly-widget'>
-			<InlineWidget url='https://calendly.com/patrickakhamiogu/30min' />
+			<InlineWidget url='https://calendly.com/patrickakhamiogu' />
 		</div>
 	);
 };
