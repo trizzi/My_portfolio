@@ -94,11 +94,7 @@ const Contact = () => {
 					/>
 				</Link>
 			</div>
-			{/* <div className='bg-black p-12 lg:p-24 w-full'>
-				<div className=''>
-					<InlineWidget url='https://calendly.com/patrickakhamiogu' />
-				</div>
-			</div> */}
+
 			<div className='relative w-full bg-black p-12 lg:p-24'>
 				<img
 					src={contact}
