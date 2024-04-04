@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import contact from '../../assets/Contact.svg';
 import text from '../../assets/book_appointment.svg';
 import Button from '../button/Button';
