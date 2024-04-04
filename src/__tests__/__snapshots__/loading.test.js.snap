@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders loading component with correct styles 1`] = `
+<div>
+  <div
+    class="container mx-auto flex items-center justify-center overflow-hidden h-screen"
+  >
+    <div
+      class="h-40 w-40 rounded-full relative flex items-center justify-center"
+      style="background-color: rgb(153, 50, 204);"
+    >
+      <div
+        class="h-36 w-36 bg-white relative rounded-full animate-spin"
+      >
+        <div
+          class="h-36 w-60 bg-white -mt-10 -ml-10"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

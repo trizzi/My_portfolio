@@ -31,7 +31,7 @@ jest.mock('../components/services/services.json', () => [
 ]);
 
 test('renders Services section with correct content', () => {
-	render(
+	const { container } = render(
 		<ThemeContextProvider>
 			<Services />
 		</ThemeContextProvider>,
@@ -51,4 +51,6 @@ test('renders Services section with correct content', () => {
 
 	const serviceDescriptions = screen.getAllByText(/Description/i); // Matches any text containing "Description"
 	expect(serviceDescriptions).toHaveLength(numServices); // Assuming there are three services
+
+	expect(container).toMatchSnapshot();
 });
