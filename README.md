@@ -7,7 +7,7 @@
 * Project Image
 * How To Set It Up On Your Local Machine
 * Libraries And Frameworks Used For The Project
-* COntributions
+* Contributions
 * License
 
 # Overview
