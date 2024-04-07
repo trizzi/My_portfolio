@@ -7,6 +7,8 @@
 * Project Image
 * How To Set It Up On Your Local Machine
 * Libraries And Frameworks Used For The Project
+* COntributions
+* License
 
 # Overview
 This project is a personal portfolio website built using React, showcasing my skills, projects, and experience as a developer. It serves as a central hub for potential employers, clients, and collaborators to learn more about me and my work.
