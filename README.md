@@ -1,4 +1,3 @@
-[![Checks](https://github.com/trizzi/react_portfolio/actions/workflows/node.js.yml/badge.svg)](https://github.com/trizzi/react_portfolio/actions/workflows/node.js.yml)
 
 # Table Of Content
 * Overview
