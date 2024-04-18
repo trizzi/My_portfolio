@@ -68,7 +68,7 @@ const About = () => {
 							</p>
 						</div>
 						<div className='lg:ml-24 md:mx-16 my-4 ml-14 mb-10'>
-							<Link to='section5'>
+							<Link to='section6'>
 								<Button
 									text={'Hire Me'}
 									className='text-white'

@@ -43,9 +43,9 @@ const ContactForm = () => {
 
 	return (
 		<form
+			data-netlify='true'
 			className='flex flex-col items-center justify-center bg-black py-8'
-			onSubmit={handleSubmit}
-			data-netlify='true'>
+			onSubmit={handleSubmit}>
 			<input
 				type='hidden'
 				name='form-name'
