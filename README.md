@@ -33,7 +33,7 @@ https://www,patrickakhamiogu.org
 
 
 # How To Set It Up On Your Local Machine
-* Clone this git repo: git@github.com:trizzi/react_porfolio.git
+* Clone this git repo: git@github.com:trizzi/My_porfolio.git
 * Get in the directory of the project
 * open in an editing tool(Vscode recommended)
 * use the following command in your CLI to run your code:
