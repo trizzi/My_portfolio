@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Looping Through Arrays In Javascript",
-      "image": "https://images.unsplash.com/photos/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
+      "image": "https://source.unsplash.com/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
       "text": "There are five ways to loop through arrays. They include: While loop Do-while loop For loop ForEach loop Map loop While Loop A [while] statement executes its statements as long as a specified condition.",
       "link": "https://medium.com/@patrickakhamiogu/looping-through-arrays-in-javascript-13eec9eeaeb4"
     },
