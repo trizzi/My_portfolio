@@ -16,14 +16,14 @@
       {
         "id": 3,
         "name": "How To Use Props In React",
-        "image": "https://images.unsplash.com/photos/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
+        "image": "https://api.unsplash.com/users/nate_grant/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
         "text": "Everyone new to React is perplexed by React props, which are never mentioned in any other framework and are rarely explained on their own. They are one of the first things you will learn in React once you have mastered the JSX syntax. React component props are essentially used to",
         "link": "https://medium.com/@patrickakhamiogu/how-to-use-props-in-react-f6fee1b538f8"
       },
       {
         "id": 4,
         "name": "Javascript’s Bundler Overview",
-        "image": "https://images.unsplash.com/photos/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
+        "image": "https://image.unsplash.com/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
         "text": "Let’s start by defining a JavaScript bundler. A JavaScript bundler is a program that compiles all of your code and its dependencies into a single JavaScript file that is ready for production and can be loaded into a browser. Also, when working with libraries that have numerous dependencies or when",
         "link": "https://medium.com/@patrickakhamiogu/javascripts-bundler-overview-1b5506be4487"
       },
