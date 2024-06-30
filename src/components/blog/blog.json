@@ -9,7 +9,7 @@
     {
         "id": 2,
         "name": "Pointers In C Programming",
-        "image": "https://images.unsplash.com/photos/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
+        "image": "https://unsplash.com/photos/black-and-gray-laptop-displaying-codes-QQ9LainS6tI",
         "text": "C is designed to be a low-level language that can easily access memory locations and perform memory-related operations. For instance, the scanf() function places the value entered by the user at the location, or address, of the variable. This is accomplished by using the ",
         "link": "https://medium.com/@patrickakhamiogu/pointers-in-c-programming-4534b4d296e7"
       },
