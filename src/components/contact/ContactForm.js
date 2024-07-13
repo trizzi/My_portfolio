@@ -43,13 +43,15 @@ const ContactForm = () => {
 
 	return (
 		<form
+			name='contact'
+			method='POST'
 			data-netlify='true'
 			className='flex flex-col items-center justify-center bg-black py-8'
 			onSubmit={handleSubmit}>
 			<input
 				type='hidden'
 				name='form-name'
-				value='contact v1'
+				value='contact'
 			/>
 			<div hidden>
 				<label>
@@ -58,7 +60,7 @@ const ContactForm = () => {
 			</div>
 
 			<div className='flex justify-between gap-4'>
-				<label htmlFor='First Name'>
+				<label htmlFor='firstName'>
 					First Name
 					<input
 						type='text'
@@ -70,7 +72,7 @@ const ContactForm = () => {
 						placeholder='First Name'
 					/>
 				</label>
-				<label htmlFor='Last Name'>
+				<label htmlFor='lastName'>
 					Last Name
 					<input
 						type='text'
@@ -84,10 +86,10 @@ const ContactForm = () => {
 				</label>
 			</div>
 
-			<label htmlFor='Email'>
+			<label htmlFor='email'>
 				Email
 				<input
-					type='text'
+					type='email'
 					id='email'
 					name='email'
 					className='mb-5 block w-[21rem] text-black rounded-md border-0 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
@@ -96,10 +98,9 @@ const ContactForm = () => {
 					placeholder='Email'
 				/>
 			</label>
-			<label htmlFor='Message'>
+			<label htmlFor='message'>
 				Message
 				<textarea
-					type='text'
 					id='message'
 					name='message'
 					className='mb-5 block w-[21rem] text-black rounded-md border-0 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6'
