@@ -26,7 +26,7 @@ This project is a personal portfolio website built using React, showcasing my sk
 * Interactive Social Icons: I utilized font-awesome's cool icons to make interactive social media icons so I can be reachable everywhere.
 
 # Link to live site
-https://www,patrickakhamiogu.org
+https://www.patrickakhamiogu.org
 
 # Project Image
 <img width="1680" alt="Screenshot 2024-04-06 at 18 39 08" src="https://github.com/trizzi/react_portfolio/assets/33966004/bbb47d25-0598-4c56-8887-fc863e5a2b7a">
